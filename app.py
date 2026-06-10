@@ -4,6 +4,7 @@ print("Adivina el número (1-100)")
 secreto = random.randint(1, 100)
 intentos = 0
 a = 15
+b = 60
 while True:
     try:
         n = int(input("Tu número: "))
